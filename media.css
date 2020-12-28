@@ -1,0 +1,118 @@
+/*Medium Devices, Desktop*/
+@media screen and (max-width: 992px) {
+	.wrapper {
+		width: 750px;
+		margin: 0 auto;
+	}
+	.header {
+		background-color: #067f70;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.top-menu {
+		background-color: #affff5;
+	}
+	.sideLeft {
+		background-color: #62ffeb;
+	}
+	.content {
+		background-color: #577f7a;
+	}
+	.footer {
+		background-color: #8cccc4;
+		height: 45px;
+	}
+}
+
+/*Smile Devices, Tablets*/
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 450px;
+		margin: 0 auto;
+	}
+	.header {
+		background-color: #565056;
+		height: 100px;
+		border-radius: 3px;
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.top-menu {
+		background-color: #3e1b3c;
+		margin-top: 4px;
+		height: 25px;
+		border-radius: 3px;
+	}
+	.sideLeft {
+		background-color: #fbaf8f;
+		width: 100%;
+		margin-top: 4px;
+		float: none;
+		border-radius: 3px;
+	}
+	.content {
+		background-color: #c46e4f;
+		width: 100%;
+		margin-top: 4px;
+		height: 250px;
+		float: none;
+	}
+	.footer {
+		background-color: #8b4e42;
+		height: 35px;
+		margin-top: 4px;
+	}
+}
+
+/*Extra Small Devices, Phones*/
+
+@media screen and (max-width: 480px) {
+	.wrapper {
+		width: 320px;
+		margin: 0 auto;
+	}
+	.header {
+		background-color: #565056;
+		height: 100px;
+		border-radius: 3px;
+	}
+
+	h1 {
+		font-size: 25px;;
+	}
+
+	.top-menu {
+		display: none;
+		background-color: #b8a992;
+		margin-top: 4px;
+		height: 25px;
+		border-radius: 3px;
+	}
+	.sideLeft {
+		background-color: #fbaf8f;
+		width: 100%;
+		margin-top: 4px;
+		float: none;
+		border-radius: 3px;
+	}
+	.content {
+		background-color: #c46e4f;
+		width: 100%;
+		margin-top: 4px;
+		height: 250px;
+		float: none;
+	}
+	.footer {
+		background-color: #8b4e42;
+		height: 35px;
+		margin-top: 4px;
+	}
+}
